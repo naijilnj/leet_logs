@@ -4,7 +4,7 @@ b=1
 
 for i in range(n):
      print(a) #1
-     temp=a+b #3
-     a=b #2
-     b=temp #2
+     temp=a+b #1
+     a=b #1
+     b=temp #1
 

@@ -25,3 +25,7 @@ print(mylist)
 print(mylist.index("Roman Reigns"))
 
 
+newlist = [12,12,34,56,67,32,65,77,87,90]
+clist = [i for i in newlist if i==12]
+print(clist)
+

@@ -3,6 +3,9 @@ print(mydict)
 
 print(mydict.get('Trainer'))
 
+mydict[4] = "Season"
+print(mydict)
+
 print(mydict.keys())
 print(mydict.values())
 
