@@ -11,7 +11,7 @@
 #print(emp_dict)
 
 
-emp_dict = {
+attendance = {
 'Ravi':[22,3],
 'Neha':[18,6],
 'Simran':[25,0],
@@ -19,32 +19,32 @@ emp_dict = {
 'Meera':[15,1]
 }
 
-for i in emp_dict:
- if emp_dict[i][0] < 20:
-  if emp_dict[i][1] == 0:
+for i in attendance:
+ if attendance[i][0] < 20:
+  if attendance[i][1] == 0:
     print(f"{i}: Poor Attendance, Perfect")
-  elif emp_dict[i][1] >= 1 and emp_dict[i][1] <= 3:
+  elif attendance[i][1] >= 1 and attendance[i][1] <= 3:
     print(f"{i}: Poor Attendance, Satisfactory")
   else:
     print(f"{i}: Poor Attendance, Needs Improvement")
- elif emp_dict[i][0] >= 20 and emp_dict[i][1] <= 5:
-   if emp_dict[i][1] == 0:
+ elif attendance[i][0] >= 20 and attendance[i][1] <= 5:
+   if attendance[i][1] == 0:
     print(f"{i}: Good Attendance, Perfect")
-   elif emp_dict[i][1] >= 1 and emp_dict[i][1] <= 3:
+   elif attendance[i][1] >= 1 and attendance[i][1] <= 3:
     print(f"{i}: Good Attendance, Satisfactory")
    else:
     print(f"{i}: Good Attendance, Needs Improvement") 
  else:
-  if emp_dict[i][1] == 0:
+  if attendance[i][1] == 0:
     print(f"{i}: Average Attendance, Perfect")
-  elif emp_dict[i][1] >= 1 and emp_dict[i][1] <= 3:
+  elif attendance[i][1] >= 1 and attendance[i][1] <= 3:
     print(f"{i}: Average Attendance, Satisfactory")
   else:
     print(f"{i}: Average Attendance, Needs Improvement")
 
 count=0
-for i in emp_dict:
- if emp_dict[i][1] == 0:
+for i in attendance:
+ if attendance[i][1] == 0:
   print("Summary of punctual employees:")
   pass
   print(i)
